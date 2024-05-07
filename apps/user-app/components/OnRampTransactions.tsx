@@ -33,7 +33,7 @@ export const OnRampTransactions = ({ transactions }: {
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center">
-                                + Rs {t.amount / 100}
+                                + Rs {+t.amount / 100}
                             </div>
 
                         </div>
